@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7739FECC2425E46900BC4814 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7739FECB2425E46900BC4814 /* ResponseData.swift */; };
 		779FADDA242512310071E914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779FADD9242512310071E914 /* AppDelegate.swift */; };
 		779FADDC242512310071E914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779FADDB242512310071E914 /* SceneDelegate.swift */; };
 		779FADDE242512310071E914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779FADDD242512310071E914 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		779FADE6242512330071E914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779FADE4242512330071E914 /* LaunchScreen.storyboard */; };
 		779FADF1242512330071E914 /* CodableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779FADF0242512330071E914 /* CodableDemoTests.swift */; };
 		779FADFC242512330071E914 /* CodableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779FADFB242512330071E914 /* CodableDemoUITests.swift */; };
+		779FAE0A2425126C0071E914 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 779FAE092425126C0071E914 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7739FECB2425E46900BC4814 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		779FADD6242512310071E914 /* CodableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779FADD9242512310071E914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		779FADDB242512310071E914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		779FADF7242512330071E914 /* CodableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		779FADFB242512330071E914 /* CodableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDemoUITests.swift; sourceTree = "<group>"; };
 		779FADFD242512330071E914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779FAE092425126C0071E914 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				779FADE2242512330071E914 /* Assets.xcassets */,
 				779FADE4242512330071E914 /* LaunchScreen.storyboard */,
 				779FADE7242512330071E914 /* Info.plist */,
+				779FAE092425126C0071E914 /* test.json */,
+				7739FECB2425E46900BC4814 /* ResponseData.swift */,
 			);
 			path = CodableDemo;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779FADE6242512330071E914 /* LaunchScreen.storyboard in Resources */,
+				779FAE0A2425126C0071E914 /* test.json in Resources */,
 				779FADE3242512330071E914 /* Assets.xcassets in Resources */,
 				779FADE1242512310071E914 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				779FADDE242512310071E914 /* ViewController.swift in Sources */,
 				779FADDA242512310071E914 /* AppDelegate.swift in Sources */,
+				7739FECC2425E46900BC4814 /* ResponseData.swift in Sources */,
 				779FADDC242512310071E914 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
